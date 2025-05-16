@@ -1,0 +1,118 @@
+body {
+    background: #1B1B1B;
+    font-family: "https://fonts.google.com/specimen/Jersey+25", sans-serif;
+    color: #FFF;
+}
+.page-navigation {
+    background-color: #3a3a3a;
+    padding: 10px;
+    display: flex;
+    top: 0;
+    z-index: 2;
+    height: 55px;
+}
+.page-navigation p {
+    display: flex;
+    justify-content: left;
+    position: absolute;
+    margin-left: 35px;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 35px;
+}
+.circle {
+    height: 35px;
+    width: 35px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    margin-top: 5px;
+}
+.page-navigation ul, li {
+    display: flex;
+    z-index: 3;
+    width: 400px;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: auto;
+    position: relative;
+    top: 0;
+}
+ul, li {
+    list-style-type: none;
+    padding: 0;
+    display: inline;
+    margin-left: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+.header{
+    background-image: url('/images/Blackimg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(2px);
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    height: 290px;
+}
+.header h1{
+    color: #FFF;
+    font-size: 50px;
+    margin: 100px auto;
+    text-shadow: 2px 2px 4px #000;
+    font-family: "https://fonts.google.com/specimen/Jersey+25", sans-serif;
+    text-align: center;
+}
+.container-why {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #474747;
+    border-radius: 10px;
+}
+.container-why h2 {
+    position: relative;
+    top: -200px;
+    left: 400px;
+    z-index: 2;
+    color: #FFF;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px #000;
+    font-family: "https://fonts.google.com/specimen/Jersey+25", sans-serif;
+}
+.container-why p {
+    color: #FFF;
+    font-size: 20px;
+    margin: 0;
+    text-shadow: 2px 2px 4px #000;
+    font-family: "https://fonts.google.com/specimen/Jersey+25", sans-serif;
+}
+.container-why .content {
+    max-width: 800px;
+    text-align: center;
+}
+.container-why .box{
+    display: flex;
+    flex-direction: column;
+    background-color: #3a3a3a;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+}
+.container-why img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
