@@ -70,36 +70,56 @@ a {
     font-family: "https://fonts.google.com/specimen/Jersey+25", sans-serif;
     text-align: center;
 }
+
 .container-why {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-around;
     height: 400px;
     background-color: #474747;
     border-radius: 10px;
+    position: relative;
+    padding: 50px;
 }
 .container-why h2 {
-    position: relative;
-    top: -200px;
-    left: 400px;
+    position: absolute;
+    top: -20px;
+    left: 0;
     z-index: 2;
     color: #FFF;
     font-size: 40px;
     text-shadow: 2px 2px 4px #000;
-    font-family: "https://fonts.google.com/specimen/Jersey+25", sans-serif;
+    font-family: sans-serif;
+    text-align: center;
+    width: 100%;
+}
+.container-why h3{
+    color: #FFF;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #000;
+    font-family: sans-serif;
+    text-align: center;
+    width: 100%;
+    margin: 0;
 }
 .container-why p {
     color: #FFF;
     font-size: 20px;
     margin: 0;
     text-shadow: 2px 2px 4px #000;
-    font-family: "https://fonts.google.com/specimen/Jersey+25", sans-serif;
+    font-family: sans-serif;
 }
+
 .container-why .content {
     max-width: 800px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
 }
-.container-why .box{
+
+.container-why .box {
     display: flex;
     flex-direction: column;
     background-color: #3a3a3a;
@@ -108,11 +128,13 @@ a {
     margin: 20px;
     width: 300px;
     height: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
 .container-why img {
     width: 100px;
     height: 100px;
+    margin: 0 auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
+
